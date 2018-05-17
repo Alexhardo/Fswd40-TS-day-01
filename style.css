@@ -72,8 +72,9 @@ section.sec1 {
 }
 
 footer {
-	background: rgb(0,0,0,0.8);
+	background: #262626;
 	height: 80px;
+	width: 100%;
 	text-align: center;
 	padding-top: 15px;
 }

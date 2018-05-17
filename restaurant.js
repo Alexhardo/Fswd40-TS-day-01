@@ -5,4 +5,5 @@ $(window).on('scroll',function(){
 	else{
 		$('nav').removeClass('black');
 	}
-})
+});
+
