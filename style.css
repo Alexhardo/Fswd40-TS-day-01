@@ -1,0 +1,74 @@
+nav {
+	position: fixed;
+	width: 100%;
+	height:80px;
+	box-sizing: border-box;
+	transition: .3s;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+nav {
+	height: 100px
+	padding: 10px 100px;
+}
+
+nav div {
+	font-size: 20px;
+	color: white;
+	padding-bottom: 15px;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+li {
+	padding-right: 50px;
+	list-style-type: none;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+}
+
+div a:hover {
+	color: white;
+}
+
+div a {
+	color: white;
+}
+
+nav.black {
+	background: rgb(0,0,0,0.8);
+	height: 80px;
+	z-index: +1;
+
+}
+
+nav ul li a.active {
+	background: red;
+	color: #fff;
+	border-radius: 6px;
+	border: 8px solid red;
+}
+
+section.sec1 {
+	width: 100%;
+	height: 100vh;
+	background: url("img/cover.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 20px;
+}
+
+.carousel-caption {
+	font-weight: bold;
+
+}
+
